@@ -1,0 +1,28 @@
+.stat-container {
+  max-width: fit-content;
+}
+
+.stat-div {
+  margin: 0 30px;
+  border: 1px solid gray;
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.stat-div:hover {
+  box-shadow: 0 20px 40px rgba(114, 114, 114, 0.4);
+  color: orange;
+  transition: 0.2s;
+  transform: scale(1.04);
+}
+
+.stat-num {
+  /* font-size: 1.3rem; */
+  font-weight: bold;
+}
+
+.stat-text {
+  color: gray;
+  font-size: 1.1rem;
+}
