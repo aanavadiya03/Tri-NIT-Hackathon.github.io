@@ -278,20 +278,11 @@
 										</span>
 									</button>
 								</a> -->
-                <a
+                <!-- <a
                   href="https://mstats.dare2compete.com/CL0/https:%2F%2Fdare2compete.com%2Fo%2FnSgfF1r%3Futm_campaign=site-emails%26utm_medium=site-emails%26utm_source=tri-nit-hackathon-goes-live-on-dare2compete/1/0109017e4961fd8b-254eb612-73f6-4dcb-8743-44a684b6cc9e-000000/mQFlR_AxjNQm3R0m9o4WNFSSf5LWfLX4NJBgDy33jrw=31"
                   target="_blank"
                 >
-                  <div
-                    class="bg-white rounded m-2 p-3"
-                    style="
-                      height: 60px;
-                      display: flex;
-                      flex-direction: row;
-                      justify-content: center;
-                      align-items: center;
-                    "
-                  >
+                  <div class="bg-white rounded m-2 p-3">
                     <img
                       src="./lottie/d2c-icon-800x800.png"
                       alt="d2c"
@@ -306,10 +297,9 @@
                       id="register"
                       >Register Now</span
                     >
-                  </div>
-                </a>
+                </a> -->
 
-                <a href="https://discord.gg/mfQNmNJq5T" target="_blank">
+                <!-- <a href="https://discord.gg/mfQNmNJq5T" target="_blank">
                   <div class="bg-white rounded m-2 p-3" style="height: 60px">
                     <img
                       src="./lottie/discord_logo.png"
@@ -326,7 +316,7 @@
                       >Join the Forum</span
                     >
                   </div>
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
@@ -1122,6 +1112,7 @@
       const hideToggle = document.querySelector(".hide-toggle");
       const menuToggle = document.querySelector(".menu-toggle");
       const navLinks = document.querySelector(".nav-links");
+      navLinks.classList.toggle("hide");
       hideToggle.addEventListener("click", () => {
         navLinks.classList.toggle("hide");
       });
